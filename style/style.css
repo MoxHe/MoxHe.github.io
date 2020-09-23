@@ -1,0 +1,31 @@
+.background {
+  background-color: #3c3836;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fabd2f;
+  position: sticky;
+  height: 50px;
+}
+
+.signature {
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: none;
+  color: #282828;
+  font-size: 200%;
+}
+
+.header-text {
+  font-family: 'Vollkorn', serif;
+  text-decoration: none;
+  color: #282828;
+  font-size: 150%;
+}
+
+.header-text:hover {
+  text-decoration: underline;
+  color: #fb4934;
+}
