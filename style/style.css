@@ -4,28 +4,44 @@
 
 .header {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  top: 0;
   background-color: #fabd2f;
   position: sticky;
   height: 50px;
+  align-items: center;
+  z-index: 1;
 }
 
 .signature {
+  margin-right: 100px;
+  padding-left: 20px;
   font-family: 'Permanent Marker', cursive;
   text-decoration: none;
   color: #282828;
   font-size: 200%;
 }
 
+.header-content {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .header-text {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Indie Flower', cursive;
   text-decoration: none;
   color: #282828;
-  font-size: 150%;
+  font-size: 120%;
 }
 
 .header-text:hover {
   text-decoration: underline;
   color: #fb4934;
 }
+
+.header-image {
+  height: 40px;
+  width: 40px;
+}
+
