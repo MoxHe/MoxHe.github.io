@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home | Moxiao He</title>
+    <link href="../style/style.css" rel="stylesheet">
+    <link href="./project-experience.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="background">
+    <div class="header">
+      <a class="signature" href="./index.html">Mox He</a>
+      <div class="header-content">
+        <a class="header-text" href="../index.html">Home</a>
+        <a class="header-text" href="../project-experience">Project Experience</a>
+        <a class="header-text" href="../contact-info">Contact Information</a>
+        <a class="header-text" href="../about-myself">About Myself</a>
+      </div>
+      <img class="header-image" src="../asset/profile.png">
+    </div>
+
+    <h1 class="project-title">Project Experience</h1>
+    <div class="project-wrapper">
+      <div class="project-card">
+        <h2 class="project-sub-title">Brain Stroke Simulator</h2>
+        <div class="project-link-container">
+          <img class="project-link-image" src="../asset/dissertation_icon.svg">
+          <a class="project-link-text" href="https://drive.google.com/file/d/1hRTJIocQGK53GGTgnqUUQDL1QThlT6nf/view?usp=sharing">Dissertation</a>
+          <img class="project-link-image" src="../asset/github_icon.svg">
+          <a class="project-link-text" href="https://github.com/MoxHe/BrainStrokeSimulator">GitHub</a>
+          <img class="project-link-image" src="../asset/demo_icon.svg">
+          <a class="project-link-text" href="https://drive.google.com/file/d/1GTUCJoVuPPf_wvRM_m1R0cUT4-KkPgGy/view?usp=sharing">Demo</a>
+        </div>
+        <p class="project-description">A C++ application that processes PGM images to simulate the geometry properties of brain strokes based on the Digital Human Phantom</p>
+        <ul class="project-text">
+          <li>Built up several mathematical models from scratch to successfully generate simulation patterns for brain strokes with 92% accuracy</li>
+          <li>Implemented a GUI by using <b>QT Creator</b> to support for visualizing and customizing brain stroke models interactively </li>
+          <li>Constructed the model database which is used for the development of health care devices</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-sub-title">Music Notation Drawing Tool</h2>
+        <div class="project-link-container">
+          <img class="project-link-image" src="../asset/github_icon.svg">
+          <a class="project-link-text" href="https://github.com/MoxHe/MusicNoationDrawingTool">GitHub</a>
+          <img class="project-link-image" src="../asset/demo_icon.svg">
+          <a class="project-link-text" href="https://drive.google.com/file/d/1QzE9peK-xmAzo-rBlIwNSDDowMmG8B4L/view?usp=sharing">Demo</a>
+        </div>
+        <p class="project-description">A Java GUI application based on pattern recognition that provides a friendly environment for users to draw sheet music</p>
+        <ul class="project-text">
+          <li>Applied objected-oriented design principle, <b>MVC</b> design pattern and <b>Maven</b> tool to manage the project</li>
+          <li>Subsampled, translated and scaled gesture strokes to normalize them into a uniform coordinate system for pattern matching</li>
+          <li>Built up a <b>nearest neighbor matching</b> system to classify users’ gestures into a list of prototypes</li>
+          <li>Created an application allowing users to train their prototype data to improve the accuracy of pattern recognition</li>
+          <li>Implemented serialization and deserialization mechanism to store and retrieve trained data efficiently</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-sub-title">Friends Nearby</h2>
+        <div class="project-link-container">
+          <img class="project-link-image" src="../asset/github_icon.svg">
+          <a class="project-link-text" href="https://github.com/MoxHe/FriendsNearBy">GitHub</a>
+        </div>
+        <p class="project-description">A geography-index based social network application</p>
+        <ul class="project-text">
+          <li>Built a scalable web service in <b>Go</b> to handle posts and deployed to <b>Google App Engine</b></li>
+          <li>Applied <b>Elastic Search</b> (GCE) to provide location-based search functions allowing users to search nearby posts</li>
+          <li>Utilized Google Dataflow to implement a daily dump of posts to <b>BigQuery</b> table for offline analysis</li>
+          <li>Aggregated the data at the post level and user level to improve the keyword-based spam detection</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h2 class="project-sub-title">EventAround: Event Search and Recommendation</h2>
+        <div class="project-link-container">
+          <img class="project-link-image" src="../asset/github_icon.svg">
+          <a class="project-link-text" href="https://github.com/MoxHe/EventAround">GitHub</a>
+        </div>
+        <p class="project-description">An event recommendation application</p>
+        <ul class="project-text">
+          <li>Created Java servlets based on <b>Apache Tomcat</b> with RESTful APIs to handle HTTP requests and response</li>
+          <li>Built <b>MySQL</b> databases to capture event data from ticket master API</li>
+          <li>Designed algorithms to improve event recommendation based on search history and favorite records</li>
+        <li>Deployed server to <b>AWS EC2</b> to handle 150 queries per second tested by <b>Apache JMeter</b></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
