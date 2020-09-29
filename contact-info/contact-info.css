@@ -50,7 +50,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .contact-card {
     width: 80%;
   }
