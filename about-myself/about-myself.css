@@ -1,0 +1,39 @@
+.myself-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.myself-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: #fdf4c1;
+  background-color: #282828;
+  width: 60%;
+  padding-bottom: 30px;
+}
+
+.myself-image {
+  padding-top: 10px;
+  width: 35%;
+  float: left;
+  justify-self: center;
+  align-self: center;
+}
+
+.myself-title {
+  padding-left: 20px;
+  color: #b8bb26;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.myself-text {
+  padding: 50px;
+  color: #d5c4a1;
+  font-family: 'Handlee', cursive;
+  line-height: 200%;
+  font-size: 150%;
+}
+
