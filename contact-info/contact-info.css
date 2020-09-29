@@ -15,7 +15,6 @@
 
 .contact-div {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   padding-bottom: 30px;
   font-family: 'Courgette', cursive;
@@ -51,3 +50,27 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 700px) {
+  .contact-card {
+    width: 80%;
+  }
+
+  .contact-card-image {
+    height: 40px;
+    width: 40px;
+    padding-right: 30px;
+  }
+
+  .contact-title {
+    font-size: 1em;
+  }
+
+  .contact-sub-title {
+    font-size: 0.8em;
+  }
+
+  .contact-div {
+    padding-left: 30px;
+    font-size: 1em;
+  }
+}
